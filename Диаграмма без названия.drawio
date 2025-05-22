@@ -1,9 +1,40 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Страница — 1" id="0JWk6hds51MMgkaadTex">
-    <mxGraphModel dx="1364" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <object label="ЭлектроннаяПодписьСлужебный.ПоставляемыеНастройкиПрограмм()" att_discription="содержит описание настроек программ эпш" placeholders="1" id="WQm0HKVgplRZhiTQNlDb-1">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;metaEdit=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="20" width="454" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="WQm0HKVgplRZhiTQNlDb-2" value="Справочник.ПрограммыЭлектроннойПодписиИШифрования" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="510" height="290" as="geometry">
+            <mxRectangle x="40" y="180" width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQm0HKVgplRZhiTQNlDb-6" value="Модуль объекта" style="whiteSpace=wrap;html=1;" vertex="1" parent="WQm0HKVgplRZhiTQNlDb-2">
+          <mxGeometry x="280" y="40" width="220" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="WQm0HKVgplRZhiTQNlDb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.109;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WQm0HKVgplRZhiTQNlDb-1" target="WQm0HKVgplRZhiTQNlDb-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="140" />
+              <mxPoint x="70" y="140" />
+              <mxPoint x="70" y="150" />
+              <mxPoint x="74" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQm0HKVgplRZhiTQNlDb-4" value="Описание настроек программ ЭПШ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WQm0HKVgplRZhiTQNlDb-3">
+          <mxGeometry x="-0.0405" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQm0HKVgplRZhiTQNlDb-5" value="&lt;b&gt;Модуль менеджера&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&amp;nbsp;ПоставляемыеНастройкиПрограмм()&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="220" height="239" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
